@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Fitr",
+  "version": "0.1.0",
+  "description": "AI-powered cross-brand sizing advisor for online clothing and footwear shoppers.",
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "Fitr"
+  },
+  "options_ui": {
+    "page": "src/options/options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "src/background/background.ts",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content.ts"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["storage", "tabs", "activeTab"]
+}

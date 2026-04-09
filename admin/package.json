@@ -1,0 +1,12 @@
+{
+  "name": "fitr-admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Minimal custom admin UI for Fitr. Most data CRUD lives in Supabase Studio; this app covers the analytics dashboard and the scraper-config deploy workflow.",
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"Sprint 9 will wire this up (Vite + React)\" && exit 0",
+    "build": "echo \"Sprint 9 will wire this up (vite build)\" && exit 0",
+    "preview": "echo \"Sprint 9 will wire this up (vite preview)\" && exit 0"
+  }
+}

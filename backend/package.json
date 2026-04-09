@@ -1,0 +1,12 @@
+{
+  "name": "fitr-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Fitr REST API service. Hosts the recommendation engine, purchase tracking, profile CRUD, anonymization, and scraper config delivery.",
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"Sprint 3 will wire this up (Fastify + tsx watch)\" && exit 0",
+    "build": "echo \"Sprint 3 will wire this up (tsc)\" && exit 0",
+    "start": "echo \"Sprint 3 will wire this up (node dist/index.js)\" && exit 0"
+  }
+}
