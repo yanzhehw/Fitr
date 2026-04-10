@@ -5,14 +5,17 @@ import {
   type MessageResponse,
   type Settings,
 } from '../shared/types';
+import { ensureUserId } from '../lib/user';
 
-// On install: seed default settings if none exist yet.
+// On install: seed default settings and generate local user ID.
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.get([STORAGE_KEY], (result) => {
     if (!result[STORAGE_KEY]) {
       chrome.storage.sync.set({ [STORAGE_KEY]: DEFAULT_SETTINGS });
     }
   });
+
+  ensureUserId();
 });
 
 // Message broker between popup/options/content surfaces.

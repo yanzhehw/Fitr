@@ -7,7 +7,9 @@ AI-powered cross-brand sizing advisor Chrome extension. Recommends the right clo
 - **Extension:** React 18, TypeScript 5.5 (strict), Vite 5 + @crxjs/vite-plugin (MV3), Tailwind CSS 3
 - **Validation:** Zod 4 — schemas are the source of truth; TS types are inferred via `z.infer<>`
 - **Database:** Supabase (PostgreSQL) — client via `@supabase/supabase-js`
-- **Backend (Sprint 3+):** Fastify + Zod + Supabase service-role client
+- **Auth:** None for now — users identified by locally generated UUID in `chrome.storage.local`
+- **Backend:** Fastify + Zod + Supabase service-role client (port 3001)
+- **Scheduled jobs (Sprint 8+):** Supabase Edge Function cron (Free plan; upgrade to pg_cron on Pro)
 - **Admin (Sprint 9+):** Vite + React + Tailwind
 
 ## Repo layout
@@ -24,14 +26,19 @@ Fitr/
 │   ├── features/         Feature modules (onboarding, profile, overlay, etc.)
 │   ├── lib/              Shared utilities (storage, units, api-client)
 │   └── shared/           Extension-local types (Settings, Message)
-├── backend/              Node REST API (stub until Sprint 3)
+├── backend/              Fastify REST API (port 3001)
 │   └── src/
+│       ├── index.ts      Entry point
+│       ├── app.ts        Fastify instance + CORS + route registration
+│       ├── db/           Supabase service-role client
+│       └── routes/       Route handlers
 ├── admin/                Admin UI (stub until Sprint 9)
 │   └── src/
 ├── shared/types/         @fitr/types — cross-package Zod schemas + TS types
-├── supabase/             SQL migrations + seed data
-│   ├── migrations/
-│   └── seed/
+├── supabase/             Database schema + seed data
+│   ├── config.toml       Supabase CLI config
+│   ├── migrations/       Numbered SQL migrations (00000–00005)
+│   └── seed/             Dev seed data (brands, size charts — Sprint 6)
 ├── .claude/docs/         Business requirements, technical requirements, sprint todos
 ├── manifest.json         Chrome extension manifest (MV3)
 ├── vite.config.ts        Extension build config (port 5273)
@@ -50,19 +57,32 @@ All cross-package types (Profile, Brand, Purchase, etc.) live here as Zod schema
 ## Commands
 
 ```sh
+# Extension
 npm run dev        # Vite dev server on port 5273 with HMR
 npm run build      # tsc -b && vite build → dist/
 npm run preview    # Serve built extension locally
+
+# Backend
+cd backend && npm run dev   # Fastify dev server on port 3001
+cd backend && npm run build # tsc → backend/dist/
+
+# Supabase
+supabase start              # Local Postgres + Studio
+supabase db reset           # Apply migrations + seed
+supabase db push            # Push migrations to remote
 ```
 
 To load in Chrome: `chrome://extensions` → Developer mode → Load unpacked → select `dist/`.
 
 ## Architecture
 
-- **MV3 service worker** (`src/background/background.ts`): message broker between popup, options, and content script. Initializes default settings on install.
+- **MV3 service worker** (`src/background/background.ts`): message broker between popup, options, and content script. Initializes default settings and user ID on install.
 - **Message passing:** typed messages via `chrome.runtime.sendMessage` / `onMessage`. Message types defined in `src/shared/types.ts`.
 - **Settings:** stored in `chrome.storage.sync`. Extension-local `Settings` type in `src/shared/types.ts`.
-- **Supabase client:** lazy-loaded singleton in `src/shared/supabase.ts` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` env vars.
+- **User identity:** locally generated UUID stored in `chrome.storage.local` (`src/lib/user.ts`). Created on extension install. Passed to backend via `X-User-ID` header. No authentication for now.
+- **Supabase client:** lazy-loaded singleton in `src/shared/supabase.ts` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` env vars.
+- **Backend:** Fastify server on port 3001. Uses Supabase service-role client (`backend/src/db/client.ts`) for all DB access. No auth middleware yet — user ID read from `X-User-ID` header.
+- **Database:** PostgreSQL via Supabase. snake_case columns, camelCase in TypeScript. Repository layer handles mapping. Cascade deletes via FK constraints. No RLS for now.
 - **Content scripts** run on `<all_urls>` (MV3 manifest). Activation is gated by the scraper registry — only act on supported brand URLs.
 
 ## Coding conventions
@@ -109,7 +129,8 @@ To load in Chrome: `chrome://extensions` → Developer mode → Load unpacked �
 
 ## Current status
 
-- **Sprints 0–1 complete:** project skeleton, `@fitr/types` shared contract (all entity schemas), path alias wiring, basic popup/options/background/content scripts
+- **Sprints 0–1 complete:** project skeleton, `@fitr/types` shared contract, path alias wiring, basic extension scripts
+- **Backend setup complete:** Supabase migrations (6 files, all tables), Fastify scaffold, user ID generation
 - **Current branch:** `backend-setup`
 - **Next:** Sprint 2 — onboarding wizard (see `.claude/docs/todos.md`)
 
@@ -132,6 +153,5 @@ Full specifications live in `.claude/docs/`:
 
 ## Open decisions (lock before relevant sprint)
 
-1. **Auth model** (blocks Sprint 3): anonymous device-ID, magic link, or Supabase Auth?
-2. **Cron hosting** (blocks Sprint 8): Supabase scheduled functions, cron worker, or pg_cron?
-3. **Onboarding blocking?** Wizard required before use, or skippable with anonymous profile?
+1. **Auth model** (blocks cross-device sync): When to add Supabase Auth? Anonymous sign-in, magic link, or OAuth?
+2. **Onboarding blocking?** Wizard required before use, or skippable with anonymous profile?

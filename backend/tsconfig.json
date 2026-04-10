@@ -20,5 +20,5 @@
       "@fitr/types/*": ["../shared/types/*"]
     }
   },
-  "include": ["src", "../shared/types"]
+  "include": ["src"]
 }
