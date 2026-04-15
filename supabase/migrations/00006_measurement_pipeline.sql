@@ -69,7 +69,7 @@ create trigger brand_size_charts_updated_at
 
 -- Add FK from entries to the new parent chart table
 -- First drop the old unique constraint and indexes on the renamed table
-alter table brand_size_chart_entries drop constraint brand_size_charts_brand_id_gender_category_product_categ_key;
+alter table brand_size_chart_entries drop constraint brand_size_charts_brand_id_gender_category_product_category_key;
 drop index if exists idx_brand_size_charts_lookup;
 
 -- Remove the now-redundant columns from entries (gender_category, product_category)
