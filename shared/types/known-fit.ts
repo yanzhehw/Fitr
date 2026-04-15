@@ -1,13 +1,16 @@
 /**
- * KnownFit — a self-reported "I know this size fits me" entry.
+ * KnownFit — a "I know this size fits me" entry.
  *
- * Captured during onboarding (optional) and via the manual correction flow
- * (Tech Reqs §1.5.3). Feeds Tier 3 (cross-brand translation) of the
- * recommendation engine.
+ * Captured during onboarding (optional), via purchase confirmation, or via
+ * the manual correction flow (Tech Reqs §1.5.3). Feeds Priority 4 (known fit
+ * translation) of the recommendation engine.
  */
 
 import { z } from 'zod';
 import { ProductCategorySchema } from './brand';
+
+export const KnownFitSourceSchema = z.enum(['self_reported', 'purchase_confirmed', 'corrected']);
+export type KnownFitSource = z.infer<typeof KnownFitSourceSchema>;
 
 export const KnownFitSchema = z.object({
   id: z.string().uuid(),
@@ -16,6 +19,8 @@ export const KnownFitSchema = z.object({
   productCategory: ProductCategorySchema,
   /** Brand-native size label, e.g. "M", "32", "US 10". */
   sizeLabel: z.string().min(1),
+  /** How this entry was created. */
+  source: KnownFitSourceSchema,
   createdAt: z.string().datetime(),
 });
 export type KnownFit = z.infer<typeof KnownFitSchema>;

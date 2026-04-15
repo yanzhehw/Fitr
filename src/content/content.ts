@@ -9,9 +9,6 @@ let currentSettings: Settings = DEFAULT_SETTINGS;
 
 function applySettings(settings: Settings) {
   currentSettings = settings;
-  // Placeholder for future scraper / popup-injection logic (PRD §4.2, §4.4).
-  // For now, we just log so the dev can verify the script is alive.
-  // eslint-disable-next-line no-console
   console.log('[Fitr] content script active, enabled =', settings.enabled);
 }
 
@@ -26,5 +23,4 @@ chrome.runtime.onMessage.addListener((message: Message) => {
   }
 });
 
-// Export so this file is treated as a module (required by isolatedModules).
 export { currentSettings };
