@@ -73,30 +73,47 @@ Launch with a curated list of 3 brands: Nike, adidas, and New Balance.
 
 **1.3 Size Recommendation Engine**
 
-**1.3.1 Data Hierarchy**
+**1.3.1 Architecture Philosophy**
 
-**The engine computes a recommendation using a layered approach, with more specific data sources taking priority over general ones:**
+The recommendation engine uses predicted body measurements as the universal intermediate layer. Rather than mapping height/weight directly to a size label, the engine first predicts a user's MeasurementVector (chest, waist, hip, inseam, shoulder_width, foot_length, length, thigh), then matches that vector against a brand's size chart entries which are defined in measurement ranges. This makes cross-brand translation tractable: all brands define their sizes in measurement ranges, so the measurement vector itself is the universal scale — no secondary normalization layer is needed.
+
+**1.3.2 Data Hierarchy**
 
 | Priority | Data Source | Description |
 | :---- | :---- | :---- |
-| 1 (Highest) | User's own purchase history | If the user has bought this exact product/SKU before and confirmed fit, use that size directly. |
-| 2 | Community purchase data | Aggregate sizing data from other Fitr users with similar body profiles who bought this product. |
-| 3 | Cross-brand size translation | Normalized mapping tables: e.g., the user fits Nike M in tops → engine maps this to the equivalent at the target brand for the same category. |
-| 4 (Lowest) | Brand size chart approximation | Approximate user body measurements (from height/weight/body type) and match against the brand's published size chart. |
+| 1 (Highest) | User's own confirmed purchase history | User's own confirmed purchase history for this exact brand and product type. |
+| 2 | Measurement approximation | Run approximation model from height/weight/body_type → MeasurementVector → overlap score against target brand's size chart entries. |
+| 3 | Community data | Weighted vote from users within ±3cm height and ±3kg weight who purchased this exact product/SKU. |
+| 4 (Lowest) | Known fit translation | User's self-reported KnownFit for the same category at another brand → compute the midpoint of each measurement range for that size at Brand A → use those midpoints as a pseudo-measurement vector → run overlap scoring against Brand B's size chart entries. |
 
-**1.3.2 Body Metric Approximation**
+**1.3.3 Body Metric Approximation**
 
-For users who do not enter body measurements, Fitr approximates key metrics (chest, waist, hip, inseam, shoulder width for clothing; foot length for shoes) using a model based on height, weight, and self-reported body type. This model we will connect later.
+The approximation model produces a MeasurementVector from height_cm, weight_kg, and body_type:
+- Base predictions are statistical estimates: e.g., chest_cm ≈ f(height, weight), length_cm ≈ f(height)
+- Body type applies a shape modifier: slim subtracts from chest/waist/hip/thigh; athletic/broad adds
+- length_cm is predicted primarily from height and is category-agnostic at the model level — its semantic meaning (top length vs. pant length) is resolved at scoring time by the product category
+- When the user provides exact body measurements, those override the predictions entirely
+- When the user has confirmed KnownFits, the system can back-calibrate predictions toward ground truth over time
 
-**1.3.3 Size Normalization**
+**1.3.4 Overlap Scoring**
 
-All brand sizes are mapped to a Fitr-internal normalized size scale. This allows cross-brand comparison. For example, Fitr may define that "Nike Men's Tops M" corresponds to a chest range of 96–104 cm in its internal model, while "New Balance Men's Tops S" covers 94–102 cm. When a user who fits Nike M shops at New Balance, the engine identifies the overlap and recommends accordingly.
+For Priority 2 matching, the engine computes an overlap score for each SizeChartEntry:
+- Overlap = how much of the user's predicted measurements fall within the entry's measurement ranges for the axes relevant to that product category
+- Category-aware scoring axes:
+  - Tops / T-shirts: chest_cm (primary), shoulder_width_cm (secondary), length_cm (tertiary)
+  - Hoodies / Outerwear: chest_cm (primary), shoulder_width_cm (secondary), length_cm (tertiary)
+  - Bottoms / Pants: waist_cm (primary), inseam_cm (secondary), length_cm (tertiary), thigh_cm (quaternary)
+  - Shoes: foot_length_cm only (width is a future phase)
+- Axes are weighted by priority order — primary axes contribute more to the overlap score than secondary or tertiary axes
+- The size label with the highest weighted overlap score is recommended
 
-**Normalization tables are managed through an internal admin panel (see Section 1.6) and are initially populated from publicly available brand size charts.**
+**1.3.5 Known Fit Translation (Priority 4)**
 
-**1.3.4 Confidence Display**
+When a user has a KnownFit at Brand A for the same category, the engine looks up the measurement ranges for that size label in Brand A's size chart, computes the midpoint of each relevant axis (e.g., midpoint of chest_min and chest_max, length_min and length_max), and uses those midpoints as a pseudo-measurement vector. It then runs the same overlap scoring used in Priority 2 against Brand B's size chart entries, respecting the same category-aware axis weighting. The size label with the highest overlap wins. This reuses the measurement ranges as the universal scale — no secondary normalization needed.
 
-**For v1, recommendations are always displayed at full confidence regardless of data availability. The system does not surface uncertainty levels to the user. Internally, however, the engine should log which data tier (1–4) was used for each recommendation for analytics and future iteration.**
+**1.3.6 Confidence Display**
+
+For v1, recommendations are always displayed at full confidence regardless of data availability. The system does not surface uncertainty levels to the user. Internally, however, the engine logs which priority tier (1–4) was used per recommendation for analytics.
 
 **1.4 Recommendation UI (Extension Popup)**
 
@@ -182,6 +199,7 @@ A future iteration could detect returns by monitoring for return confirmation pa
 | Database | Stores user profiles, purchase history, brand size charts, normalized size mapping tables, and community aggregate data. |
 | Admin Panel | Internal web app for brand/size chart management and analytics. Separate from the consumer-facing extension. |
 | Scraper Registry | Modular configuration store for brand-specific scraper definitions. Loaded by the extension to determine supported sites and extraction rules. |
+| Approximation Model | First-class backend component that receives height_cm, weight_kg, body_type and returns a MeasurementVector. Invoked at profile creation/update; output is cached on the User record as predicted_measurements. |
 
 **2.2 Data Flow**
 
@@ -199,15 +217,47 @@ A future iteration could detect returns by monitoring for return confirmation pa
 
 **3. Data Model (Key Entities)**
 
-| Entity | Key Fields | Notes |
-| :---- | :---- | :---- |
-| User | id, username, height, weight, body_type, gender_category, measurements (optional), social_proof_opt_in | Core profile. Measurements nullable. |
-| KnownFit | user_id, brand, product_category, size | Self-reported fits from onboarding or corrections. |
-| Brand | id, name, enabled, region | Managed via admin panel. |
-| BrandSizeChart | brand_id, gender_category, product_category, size_label, measurements (JSON) | Source of truth for size chart approximation. |
-| NormalizedSizeMap | brand_id, gender_category, product_category, size_label, fitr_internal_size | Maps brand sizes to Fitr's internal normalized scale. |
-| Purchase | user_id, product_sku, brand, product_category, size, timestamp, fit_status | fit_status: pending / confirmed / corrected. |
-| ScraperConfig | brand_id, url_pattern, selectors (JSON), confirmation_pattern | Loaded by extension for page detection. |
+**User**
+- id, username, height_cm, weight_kg, body_type, gender_category (mens|womens|unisex)
+- body_type depends on gender_category:
+  - Mens: inverted_triangle | rectangle | oval
+  - Womens: apple | pear | hourglass | cane_sugar | athletic
+- predicted_measurements: MeasurementVector (computed, cached, recomputed when profile changes)
+- exact_measurements: MeasurementVector | null (user-provided, overrides predictions)
+- measurement_confidence: low|medium|high (reflects how much ground truth data backs the prediction)
+- social_proof_opt_in: boolean
+
+**MeasurementVector** (embedded/nested, not a standalone table)
+- chest_cm, waist_cm, hip_cm, inseam_cm, shoulder_width_cm, foot_length_cm, length_cm, thigh_cm
+- All fields nullable — only relevant fields populated per user's available data
+- length_cm represents the garment's full vertical length; its semantic meaning is resolved at scoring time by product category (top length vs. pant length)
+- thigh_cm is only scored for bottoms/pants
+
+**KnownFit**
+- id, user_id, brand_id, product_category (normalized enum), size_label
+- source: self_reported | purchase_confirmed | corrected
+
+**Brand**
+- id, name, enabled, region
+
+**BrandSizeChart**
+- id, brand_id, gender_category, product_category
+- entries: list of BrandSizeChartEntry
+
+**BrandSizeChartEntry**
+- id, size_chart_id, size_label
+- measurement_ranges: { chest_cm, waist_cm, hip_cm, inseam_cm, shoulder_width_cm, foot_length_cm, length_cm, thigh_cm } each as [min, max] — only relevant axes populated per product category
+
+**NormalizedCategory** (enum referenced by multiple entities)
+- tops, bottoms, outerwear, shoes
+
+**Purchase**
+- id, user_id, product_sku, brand_id, product_category, size_label, timestamp
+- fit_status: pending | confirmed | corrected
+- recommendation_tier_used: 1|2|3|4 (which priority level produced the recommendation)
+
+**ScraperConfig**
+- No change from original.
 
 **4. Privacy & Security (Technical Requirements)**
 

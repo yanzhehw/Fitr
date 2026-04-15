@@ -1,14 +1,14 @@
 /**
  * Recommendation request/response — the GET /recommend contract.
  *
- * The engine evaluates the data hierarchy in order (Tech Reqs §1.3.1):
- *   1. own_history    — user's own confirmed purchase for this SKU
- *   2. community      — aggregated purchases by similar-bodied users
- *   3. cross_brand    — normalized translation from a known fit
- *   4. size_chart     — body-metric approximation against the brand's chart
+ * The engine evaluates the data hierarchy in priority order (Tech Reqs §1.3.2):
+ *   1. own_history              — user's own confirmed purchase for this brand+category
+ *   2. measurement_approximation — MeasurementVector overlap scoring against size chart
+ *   3. community                — weighted vote from similar-bodied users for this SKU
+ *   4. known_fit_translation    — KnownFit at Brand A → midpoint vector → overlap at Brand B
  *
  * The response always returns a single `recommendedSize` regardless of which
- * tier produced it (Tech Reqs §1.3.4 — no confidence levels surfaced in v1),
+ * tier produced it (Tech Reqs §1.3.6 — no confidence levels surfaced in v1),
  * but the tier used is logged for analytics.
  */
 
@@ -18,9 +18,9 @@ import { SocialProofEntrySchema } from './social-proof';
 
 export const DataTierSchema = z.enum([
   'own_history',
+  'measurement_approximation',
   'community',
-  'cross_brand',
-  'size_chart',
+  'known_fit_translation',
 ]);
 export type DataTier = z.infer<typeof DataTierSchema>;
 
