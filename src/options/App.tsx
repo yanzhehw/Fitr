@@ -1,19 +1,17 @@
 import { useState } from 'react';
 import { GeneralTab } from './tabs/GeneralTab';
-import { AdvancedTab } from './tabs/AdvancedTab';
 import { AboutTab } from './tabs/AboutTab';
 
-type TabId = 'general' | 'advanced' | 'about';
+type TabId = 'general' | 'about';
 
 const TABS: { id: TabId; label: string }[] = [
   { id: 'general', label: 'General' },
-  { id: 'advanced', label: 'Advanced' },
   { id: 'about', label: 'About' },
 ];
 
 function getInitialTab(): TabId {
   const param = new URLSearchParams(window.location.search).get('tab');
-  if (param === 'advanced' || param === 'about' || param === 'general') {
+  if (param === 'about' || param === 'general') {
     return param;
   }
   return 'general';
@@ -60,7 +58,6 @@ export function App() {
       <main className="flex-1 overflow-y-auto">
         <div className="mx-auto max-w-3xl px-10 py-10">
           {activeTab === 'general' && <GeneralTab />}
-          {activeTab === 'advanced' && <AdvancedTab />}
           {activeTab === 'about' && <AboutTab />}
         </div>
       </main>
