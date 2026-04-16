@@ -1,0 +1,5693 @@
+{
+  "brand": {
+    "name": "Nike",
+    "region": "NA",
+    "enabled": true
+  },
+  "scrapedAt": "2026-04-15T06:04:24.100Z",
+  "totalSubCharts": 38,
+  "totalEntries": 392,
+  "subCharts": [
+    {
+      "slug": "mens-footwear",
+      "url": "https://www.nike.com/size-fit/mens-footwear",
+      "scrapedAt": "2026-04-15T05:59:16.969Z",
+      "sourceUnit": "cm",
+      "genderCategory": "mens",
+      "productCategory": "shoes",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "US M3.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22.5,
+              22.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M4",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23,
+              23
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M4.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.5,
+              23.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.5,
+              23.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M5.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24,
+              24
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M6",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24,
+              24
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M6.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24.5,
+              24.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M7",
+          "measurementRanges": {
+            "foot_length_cm": [
+              25,
+              25
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M7.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              25.5,
+              25.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M8",
+          "measurementRanges": {
+            "foot_length_cm": [
+              26,
+              26
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M8.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              26.5,
+              26.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M9",
+          "measurementRanges": {
+            "foot_length_cm": [
+              27,
+              27
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M9.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              27.5,
+              27.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M10",
+          "measurementRanges": {
+            "foot_length_cm": [
+              28,
+              28
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M10.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              28.5,
+              28.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M11",
+          "measurementRanges": {
+            "foot_length_cm": [
+              29,
+              29
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M11.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              29.5,
+              29.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M12",
+          "measurementRanges": {
+            "foot_length_cm": [
+              30,
+              30
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M12.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              30.5,
+              30.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M13",
+          "measurementRanges": {
+            "foot_length_cm": [
+              31,
+              31
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M13.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              31.5,
+              31.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M14",
+          "measurementRanges": {
+            "foot_length_cm": [
+              32,
+              32
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M14.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              32.5,
+              32.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M15",
+          "measurementRanges": {
+            "foot_length_cm": [
+              33,
+              33
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M15.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              33.5,
+              33.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M16",
+          "measurementRanges": {
+            "foot_length_cm": [
+              34,
+              34
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M16.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              34.5,
+              34.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M17",
+          "measurementRanges": {
+            "foot_length_cm": [
+              35,
+              35
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M17.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              35.5,
+              35.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M18",
+          "measurementRanges": {
+            "foot_length_cm": [
+              36,
+              36
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M18.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              36.5,
+              36.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M19",
+          "measurementRanges": {
+            "foot_length_cm": [
+              37,
+              37
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M19.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              37.5,
+              37.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M20",
+          "measurementRanges": {
+            "foot_length_cm": [
+              38,
+              38
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M20.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              38.5,
+              38.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M21",
+          "measurementRanges": {
+            "foot_length_cm": [
+              39,
+              39
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M21.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              39.5,
+              39.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M22",
+          "measurementRanges": {
+            "foot_length_cm": [
+              40,
+              40
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Foot Length (in)"
+      ]
+    },
+    {
+      "slug": "mens_tops_alpha",
+      "url": "https://www.nike.com/size-fit/mens_tops_alpha",
+      "scrapedAt": "2026-04-15T05:59:31.699Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "chest_cm": [
+              71.4,
+              80
+            ],
+            "waist_cm": [
+              57.2,
+              64.8
+            ],
+            "hip_cm": [
+              72.4,
+              80
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              80,
+              88.9
+            ],
+            "waist_cm": [
+              64.8,
+              73.7
+            ],
+            "hip_cm": [
+              80,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              88.9,
+              95.3
+            ],
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              88.9,
+              95.3
+            ],
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              95.3,
+              104.1
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              95.3,
+              104.1
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ],
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ],
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              123.2
+            ],
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              123.2
+            ],
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              123.2,
+              135.9
+            ],
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              123.2,
+              135.9
+            ],
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3XL",
+          "measurementRanges": {
+            "chest_cm": [
+              135.9,
+              147.3
+            ],
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3XL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              135.9,
+              147.3
+            ],
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4XL",
+          "measurementRanges": {
+            "chest_cm": [
+              147.3,
+              160
+            ],
+            "waist_cm": [
+              133.4,
+              144.8
+            ],
+            "hip_cm": [
+              135.9,
+              148.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4XL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              147.3,
+              160
+            ],
+            "waist_cm": [
+              133.4,
+              144.8
+            ],
+            "hip_cm": [
+              135.9,
+              148.6
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "mens_bottoms_alpha",
+      "url": "https://www.nike.com/size-fit/mens_bottoms_alpha",
+      "scrapedAt": "2026-04-15T05:59:37.192Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "waist_cm": [
+              57.2,
+              64.8
+            ],
+            "hip_cm": [
+              72.4,
+              80
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "waist_cm": [
+              64.8,
+              73.7
+            ],
+            "hip_cm": [
+              80,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3XL",
+          "measurementRanges": {
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3XL Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4XL",
+          "measurementRanges": {
+            "waist_cm": [
+              133.4,
+              144.8
+            ],
+            "hip_cm": [
+              135.9,
+              148.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4XL Tall",
+          "measurementRanges": {
+            "waist_cm": [
+              133.4,
+              144.8
+            ],
+            "hip_cm": [
+              135.9,
+              148.6
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "mens-bottoms-numeric",
+      "url": "https://www.nike.com/size-fit/mens-bottoms-numeric",
+      "scrapedAt": "2026-04-15T05:59:43.549Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "26",
+          "measurementRanges": {
+            "waist_cm": [
+              69.9,
+              69.9
+            ],
+            "hip_cm": [
+              85.1,
+              85.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "28",
+          "measurementRanges": {
+            "waist_cm": [
+              74.9,
+              74.9
+            ],
+            "hip_cm": [
+              90.2,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "30",
+          "measurementRanges": {
+            "waist_cm": [
+              80,
+              80
+            ],
+            "hip_cm": [
+              95.3,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "32",
+          "measurementRanges": {
+            "waist_cm": [
+              85.1,
+              85.1
+            ],
+            "hip_cm": [
+              100.3,
+              100.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "34",
+          "measurementRanges": {
+            "waist_cm": [
+              90.2,
+              90.2
+            ],
+            "hip_cm": [
+              105.4,
+              105.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "35",
+          "measurementRanges": {
+            "waist_cm": [
+              92.7,
+              92.7
+            ],
+            "hip_cm": [
+              108,
+              108
+            ]
+          }
+        },
+        {
+          "sizeLabel": "36",
+          "measurementRanges": {
+            "waist_cm": [
+              95.3,
+              95.3
+            ],
+            "hip_cm": [
+              110.5,
+              110.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "37",
+          "measurementRanges": {
+            "waist_cm": [
+              97.8,
+              97.8
+            ],
+            "hip_cm": [
+              113,
+              113
+            ]
+          }
+        },
+        {
+          "sizeLabel": "38",
+          "measurementRanges": {
+            "waist_cm": [
+              100.3,
+              100.3
+            ],
+            "hip_cm": [
+              115.6,
+              115.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "40",
+          "measurementRanges": {
+            "waist_cm": [
+              105.4,
+              105.4
+            ],
+            "hip_cm": [
+              120.7,
+              120.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "42",
+          "measurementRanges": {
+            "waist_cm": [
+              110.5,
+              110.5
+            ],
+            "hip_cm": [
+              125.7,
+              125.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "44",
+          "measurementRanges": {
+            "waist_cm": [
+              115.6,
+              115.6
+            ],
+            "hip_cm": [
+              130.8,
+              130.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "46",
+          "measurementRanges": {
+            "waist_cm": [
+              120.7,
+              120.7
+            ],
+            "hip_cm": [
+              135.9,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "48",
+          "measurementRanges": {
+            "waist_cm": [
+              125.7,
+              125.7
+            ],
+            "hip_cm": [
+              141,
+              141
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "nba-wnba-jerseys",
+      "url": "https://www.nike.com/size-fit/nba-wnba-jerseys",
+      "scrapedAt": "2026-04-15T05:59:58.386Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "tops",
+      "labelPrefix": "NBA ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "NBA XS",
+          "measurementRanges": {
+            "chest_cm": [
+              82.6,
+              88.9
+            ],
+            "waist_cm": [
+              66,
+              73.7
+            ],
+            "hip_cm": [
+              80,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA S",
+          "measurementRanges": {
+            "chest_cm": [
+              88.9,
+              95.3
+            ],
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA M",
+          "measurementRanges": {
+            "chest_cm": [
+              95.3,
+              104.1
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA L",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ],
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA XL",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              123.2
+            ],
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              123.2,
+              135.9
+            ],
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA 3XL",
+          "measurementRanges": {
+            "chest_cm": [
+              135.9,
+              147.3
+            ],
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size"
+      ]
+    },
+    {
+      "slug": "mens-nba-shorts",
+      "url": "https://www.nike.com/size-fit/mens-nba-shorts",
+      "scrapedAt": "2026-04-15T06:00:03.898Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "NBA ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "NBA S",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA M",
+          "measurementRanges": {
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA L",
+          "measurementRanges": {
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA XL",
+          "measurementRanges": {
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA 2XL",
+          "measurementRanges": {
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "NBA 3XL",
+          "measurementRanges": {
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size"
+      ]
+    },
+    {
+      "slug": "mens-swimsuit",
+      "url": "https://www.nike.com/size-fit/mens-swimsuit",
+      "scrapedAt": "2026-04-15T06:00:11.790Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Swim ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Swim XS",
+          "measurementRanges": {
+            "chest_cm": [
+              82.6,
+              90.2
+            ],
+            "waist_cm": [
+              66,
+              73.7
+            ],
+            "hip_cm": [
+              81.3,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim S",
+          "measurementRanges": {
+            "chest_cm": [
+              90.2,
+              97.8
+            ],
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              96.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim M",
+          "measurementRanges": {
+            "chest_cm": [
+              97.8,
+              105.4
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              96.5,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim L",
+          "measurementRanges": {
+            "chest_cm": [
+              105.4,
+              113
+            ],
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim XL",
+          "measurementRanges": {
+            "chest_cm": [
+              113,
+              120.7
+            ],
+            "waist_cm": [
+              96.5,
+              104.1
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              120.7,
+              129.5
+            ],
+            "waist_cm": [
+              104.1,
+              111.8
+            ],
+            "hip_cm": [
+              119.4,
+              127
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim 3XL",
+          "measurementRanges": {
+            "chest_cm": [
+              129.5,
+              137.2
+            ],
+            "waist_cm": [
+              111.8,
+              119.4
+            ],
+            "hip_cm": [
+              127,
+              134.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim 4XL",
+          "measurementRanges": {
+            "chest_cm": [
+              137.2,
+              144.8
+            ],
+            "waist_cm": [
+              119.4,
+              127
+            ],
+            "hip_cm": [
+              134.6,
+              139.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "underwear",
+      "url": "https://www.nike.com/size-fit/underwear",
+      "scrapedAt": "2026-04-15T06:00:16.399Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Underwear ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Underwear XS",
+          "measurementRanges": {
+            "chest_cm": [
+              76.2,
+              81.3
+            ],
+            "waist_cm": [
+              61,
+              66
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear S",
+          "measurementRanges": {
+            "chest_cm": [
+              86.4,
+              91.4
+            ],
+            "waist_cm": [
+              71.1,
+              76.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear M",
+          "measurementRanges": {
+            "chest_cm": [
+              96.5,
+              101.6
+            ],
+            "waist_cm": [
+              81.3,
+              86.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear L",
+          "measurementRanges": {
+            "chest_cm": [
+              106.7,
+              111.8
+            ],
+            "waist_cm": [
+              91.4,
+              96.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XL",
+          "measurementRanges": {
+            "chest_cm": [
+              116.8,
+              121.9
+            ],
+            "waist_cm": [
+              101.6,
+              106.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              127,
+              132.1
+            ],
+            "waist_cm": [
+              111.8,
+              116.8
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "underwear",
+      "url": "https://www.nike.com/size-fit/underwear",
+      "scrapedAt": "2026-04-15T06:00:16.399Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Underwear ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Underwear XXS",
+          "measurementRanges": {
+            "waist_cm": [
+              53.3,
+              58.4
+            ],
+            "hip_cm": [
+              77.5,
+              82.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XS",
+          "measurementRanges": {
+            "waist_cm": [
+              59.7,
+              66
+            ],
+            "hip_cm": [
+              83.8,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear S",
+          "measurementRanges": {
+            "waist_cm": [
+              67.3,
+              73.7
+            ],
+            "hip_cm": [
+              91.4,
+              96.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear M",
+          "measurementRanges": {
+            "waist_cm": [
+              74.9,
+              80
+            ],
+            "hip_cm": [
+              97.8,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear L",
+          "measurementRanges": {
+            "waist_cm": [
+              81.3,
+              87.6
+            ],
+            "hip_cm": [
+              105.4,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XL",
+          "measurementRanges": {
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              113,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XXL",
+          "measurementRanges": {
+            "waist_cm": [
+              97.8,
+              108
+            ],
+            "hip_cm": [
+              120.7,
+              128.3
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "underwear",
+      "url": "https://www.nike.com/size-fit/underwear",
+      "scrapedAt": "2026-04-15T06:00:16.399Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Underwear ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Underwear XS",
+          "measurementRanges": {
+            "waist_cm": [
+              54.6,
+              57.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear S",
+          "measurementRanges": {
+            "waist_cm": [
+              57.2,
+              63.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear M",
+          "measurementRanges": {
+            "waist_cm": [
+              63.5,
+              69.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear L",
+          "measurementRanges": {
+            "waist_cm": [
+              69.9,
+              76.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XL",
+          "measurementRanges": {
+            "waist_cm": [
+              76.2,
+              81.3
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "underwear",
+      "url": "https://www.nike.com/size-fit/underwear",
+      "scrapedAt": "2026-04-15T06:00:16.399Z",
+      "sourceUnit": "in",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Underwear ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Underwear XS",
+          "measurementRanges": {
+            "waist_cm": [
+              49.5,
+              54.6
+            ],
+            "hip_cm": [
+              63.5,
+              66
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear S",
+          "measurementRanges": {
+            "waist_cm": [
+              55.9,
+              61
+            ],
+            "hip_cm": [
+              67.3,
+              72.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear M",
+          "measurementRanges": {
+            "waist_cm": [
+              62.2,
+              67.3
+            ],
+            "hip_cm": [
+              73.7,
+              78.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear L",
+          "measurementRanges": {
+            "waist_cm": [
+              68.6,
+              73.7
+            ],
+            "hip_cm": [
+              80,
+              87.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Underwear XL",
+          "measurementRanges": {
+            "waist_cm": [
+              74.9,
+              80
+            ],
+            "hip_cm": [
+              88.9,
+              96.5
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-footwear",
+      "url": "https://www.nike.com/size-fit/womens-footwear",
+      "scrapedAt": "2026-04-15T06:00:23.325Z",
+      "sourceUnit": "cm",
+      "genderCategory": "womens",
+      "productCategory": "shoes",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "US W3.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21,
+              21
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W4",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21,
+              21
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W4.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21.5,
+              21.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22,
+              22
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W5.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22.5,
+              22.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W6",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23,
+              23
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W6.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.5,
+              23.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W7",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24,
+              24
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W7.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24.5,
+              24.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W8",
+          "measurementRanges": {
+            "foot_length_cm": [
+              25,
+              25
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W8.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              25.5,
+              25.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W9",
+          "measurementRanges": {
+            "foot_length_cm": [
+              26,
+              26
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W9.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              26.5,
+              26.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W10",
+          "measurementRanges": {
+            "foot_length_cm": [
+              27,
+              27
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W10.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              27.5,
+              27.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W11",
+          "measurementRanges": {
+            "foot_length_cm": [
+              28,
+              28
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W11.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              28.5,
+              28.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W12",
+          "measurementRanges": {
+            "foot_length_cm": [
+              29,
+              29
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W12.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              29.5,
+              29.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W13",
+          "measurementRanges": {
+            "foot_length_cm": [
+              30,
+              30
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W13.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              30.5,
+              30.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W14",
+          "measurementRanges": {
+            "foot_length_cm": [
+              31,
+              31
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W14.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              31.5,
+              31.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W15",
+          "measurementRanges": {
+            "foot_length_cm": [
+              32,
+              32
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W15.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              32.5,
+              32.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W16",
+          "measurementRanges": {
+            "foot_length_cm": [
+              33,
+              33
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W16.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              33.5,
+              33.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W17",
+          "measurementRanges": {
+            "foot_length_cm": [
+              34,
+              34
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W17.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              34.5,
+              34.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W18",
+          "measurementRanges": {
+            "foot_length_cm": [
+              35,
+              35
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W18.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              35.5,
+              35.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W19",
+          "measurementRanges": {
+            "foot_length_cm": [
+              36,
+              36
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W19.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              36.5,
+              36.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W20",
+          "measurementRanges": {
+            "foot_length_cm": [
+              37,
+              37
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W20.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              37.5,
+              37.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W21",
+          "measurementRanges": {
+            "foot_length_cm": [
+              38,
+              38
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W21.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              38.5,
+              38.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W22",
+          "measurementRanges": {
+            "foot_length_cm": [
+              39,
+              39
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US W22.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              39.5,
+              39.5
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Foot Length (in)"
+      ]
+    },
+    {
+      "slug": "womens-tops-alpha",
+      "url": "https://www.nike.com/size-fit/womens-tops-alpha",
+      "scrapedAt": "2026-04-15T06:00:29.416Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "chest_cm": [
+              69.9,
+              74.9
+            ],
+            "waist_cm": [
+              54,
+              59.7
+            ],
+            "hip_cm": [
+              77.5,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              82.6
+            ],
+            "waist_cm": [
+              59.7,
+              66
+            ],
+            "hip_cm": [
+              83.8,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              82.6,
+              90.2
+            ],
+            "waist_cm": [
+              66,
+              73.7
+            ],
+            "hip_cm": [
+              90.2,
+              97.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              90.2,
+              96.5
+            ],
+            "waist_cm": [
+              73.7,
+              80
+            ],
+            "hip_cm": [
+              97.8,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              96.5,
+              104.1
+            ],
+            "waist_cm": [
+              80,
+              87.6
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              113
+            ],
+            "waist_cm": [
+              87.6,
+              97.8
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              113,
+              123.2
+            ],
+            "waist_cm": [
+              97.8,
+              108
+            ],
+            "hip_cm": [
+              119.4,
+              127
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-tops-alpha",
+      "url": "https://www.nike.com/size-fit/womens-tops-alpha",
+      "scrapedAt": "2026-04-15T06:00:29.416Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "0X",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              119.4
+            ],
+            "waist_cm": [
+              101.6,
+              109.2
+            ],
+            "hip_cm": [
+              121.9,
+              129.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "1X",
+          "measurementRanges": {
+            "chest_cm": [
+              119.4,
+              125.7
+            ],
+            "waist_cm": [
+              109.2,
+              115.6
+            ],
+            "hip_cm": [
+              129.5,
+              137.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "2X",
+          "measurementRanges": {
+            "chest_cm": [
+              125.7,
+              132.1
+            ],
+            "waist_cm": [
+              115.6,
+              124.5
+            ],
+            "hip_cm": [
+              137.2,
+              144.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3X",
+          "measurementRanges": {
+            "chest_cm": [
+              132.1,
+              139.7
+            ],
+            "waist_cm": [
+              124.5,
+              134.6
+            ],
+            "hip_cm": [
+              144.8,
+              154.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4X",
+          "measurementRanges": {
+            "chest_cm": [
+              139.7,
+              147.3
+            ],
+            "waist_cm": [
+              134.6,
+              144.8
+            ],
+            "hip_cm": [
+              154.9,
+              165.1
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-bottoms-alpha",
+      "url": "https://www.nike.com/size-fit/womens-bottoms-alpha",
+      "scrapedAt": "2026-04-15T06:00:35.201Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "waist_cm": [
+              54,
+              59.7
+            ],
+            "hip_cm": [
+              77.5,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "waist_cm": [
+              59.7,
+              66
+            ],
+            "hip_cm": [
+              83.8,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "waist_cm": [
+              66,
+              73.7
+            ],
+            "hip_cm": [
+              90.2,
+              97.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              80
+            ],
+            "hip_cm": [
+              97.8,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "waist_cm": [
+              80,
+              87.6
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "waist_cm": [
+              87.6,
+              97.8
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "waist_cm": [
+              97.8,
+              108
+            ],
+            "hip_cm": [
+              119.4,
+              127
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-bottoms-alpha",
+      "url": "https://www.nike.com/size-fit/womens-bottoms-alpha",
+      "scrapedAt": "2026-04-15T06:00:35.201Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "0X",
+          "measurementRanges": {
+            "waist_cm": [
+              101.6,
+              109.2
+            ],
+            "hip_cm": [
+              121.9,
+              129.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "1X",
+          "measurementRanges": {
+            "waist_cm": [
+              109.2,
+              115.6
+            ],
+            "hip_cm": [
+              129.5,
+              137.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "2X",
+          "measurementRanges": {
+            "waist_cm": [
+              115.6,
+              124.5
+            ],
+            "hip_cm": [
+              137.2,
+              144.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3X",
+          "measurementRanges": {
+            "waist_cm": [
+              124.5,
+              134.6
+            ],
+            "hip_cm": [
+              144.8,
+              154.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4X",
+          "measurementRanges": {
+            "waist_cm": [
+              134.6,
+              144.8
+            ],
+            "hip_cm": [
+              154.9,
+              165.1
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-numeric",
+      "url": "https://www.nike.com/size-fit/womens-numeric",
+      "scrapedAt": "2026-04-15T06:00:40.436Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "0",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              74.9
+            ],
+            "waist_cm": [
+              58.4,
+              58.4
+            ],
+            "hip_cm": [
+              82.6,
+              82.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "2",
+          "measurementRanges": {
+            "chest_cm": [
+              78.7,
+              78.7
+            ],
+            "waist_cm": [
+              62.2,
+              62.2
+            ],
+            "hip_cm": [
+              86.4,
+              86.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4",
+          "measurementRanges": {
+            "chest_cm": [
+              82.6,
+              82.6
+            ],
+            "waist_cm": [
+              66,
+              66
+            ],
+            "hip_cm": [
+              90.2,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "6",
+          "measurementRanges": {
+            "chest_cm": [
+              86.4,
+              86.4
+            ],
+            "waist_cm": [
+              69.9,
+              69.9
+            ],
+            "hip_cm": [
+              94,
+              94
+            ]
+          }
+        },
+        {
+          "sizeLabel": "8",
+          "measurementRanges": {
+            "chest_cm": [
+              90.2,
+              90.2
+            ],
+            "waist_cm": [
+              73.7,
+              73.7
+            ],
+            "hip_cm": [
+              97.8,
+              97.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "10",
+          "measurementRanges": {
+            "chest_cm": [
+              94,
+              94
+            ],
+            "waist_cm": [
+              77.5,
+              77.5
+            ],
+            "hip_cm": [
+              101.6,
+              101.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "12",
+          "measurementRanges": {
+            "chest_cm": [
+              97.8,
+              97.8
+            ],
+            "waist_cm": [
+              81.3,
+              81.3
+            ],
+            "hip_cm": [
+              105.4,
+              105.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "14",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              104.1
+            ],
+            "waist_cm": [
+              86.4,
+              86.4
+            ],
+            "hip_cm": [
+              110.5,
+              110.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "16",
+          "measurementRanges": {
+            "chest_cm": [
+              110.5,
+              110.5
+            ],
+            "waist_cm": [
+              91.4,
+              91.4
+            ],
+            "hip_cm": [
+              115.6,
+              115.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "18",
+          "measurementRanges": {
+            "chest_cm": [
+              116.8,
+              116.8
+            ],
+            "waist_cm": [
+              96.5,
+              96.5
+            ],
+            "hip_cm": [
+              120.7,
+              120.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "20",
+          "measurementRanges": {
+            "chest_cm": [
+              123.2,
+              123.2
+            ],
+            "waist_cm": [
+              101.6,
+              101.6
+            ],
+            "hip_cm": [
+              125.7,
+              125.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "22",
+          "measurementRanges": {
+            "chest_cm": [
+              129.5,
+              129.5
+            ],
+            "waist_cm": [
+              106.7,
+              106.7
+            ],
+            "hip_cm": [
+              130.8,
+              130.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "16W",
+          "measurementRanges": {
+            "waist_cm": [
+              100.3,
+              100.3
+            ],
+            "hip_cm": [
+              119.4,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "18W",
+          "measurementRanges": {
+            "waist_cm": [
+              105.4,
+              105.4
+            ],
+            "hip_cm": [
+              124.5,
+              124.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "20W",
+          "measurementRanges": {
+            "waist_cm": [
+              110.5,
+              110.5
+            ],
+            "hip_cm": [
+              129.5,
+              129.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "22W",
+          "measurementRanges": {
+            "waist_cm": [
+              115.6,
+              115.6
+            ],
+            "hip_cm": [
+              134.6,
+              134.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "24W",
+          "measurementRanges": {
+            "waist_cm": [
+              120.7,
+              120.7
+            ],
+            "hip_cm": [
+              139.7,
+              139.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "26W",
+          "measurementRanges": {
+            "waist_cm": [
+              125.7,
+              125.7
+            ],
+            "hip_cm": [
+              144.8,
+              144.8
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "wnba-shorts",
+      "url": "https://www.nike.com/size-fit/wnba-shorts",
+      "scrapedAt": "2026-04-15T06:00:46.073Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "WNBA ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "WNBA XS",
+          "measurementRanges": {
+            "waist_cm": [
+              59.7,
+              66
+            ],
+            "hip_cm": [
+              83.8,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "WNBA S",
+          "measurementRanges": {
+            "waist_cm": [
+              66,
+              73.7
+            ],
+            "hip_cm": [
+              90.2,
+              97.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "WNBA M",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              80
+            ],
+            "hip_cm": [
+              97.8,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "WNBA L",
+          "measurementRanges": {
+            "waist_cm": [
+              80,
+              87.6
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "WNBA XL",
+          "measurementRanges": {
+            "waist_cm": [
+              87.6,
+              97.8
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "WNBA 2XL",
+          "measurementRanges": {
+            "waist_cm": [
+              97.8,
+              108
+            ],
+            "hip_cm": [
+              119.4,
+              127
+            ]
+          }
+        },
+        {
+          "sizeLabel": "WNBA 3XL",
+          "measurementRanges": {
+            "waist_cm": [
+              108,
+              118.1
+            ],
+            "hip_cm": [
+              127,
+              135.9
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "womens-skirt-dress",
+      "url": "https://www.nike.com/size-fit/womens-skirt-dress",
+      "scrapedAt": "2026-04-15T06:01:09.146Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Skirt ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Skirt XXS",
+          "measurementRanges": {
+            "chest_cm": [
+              69.9,
+              74.9
+            ],
+            "waist_cm": [
+              54,
+              59.7
+            ],
+            "hip_cm": [
+              77.5,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt XS",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              82.6
+            ],
+            "waist_cm": [
+              59.7,
+              66
+            ],
+            "hip_cm": [
+              83.8,
+              90.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt S",
+          "measurementRanges": {
+            "chest_cm": [
+              82.6,
+              90.2
+            ],
+            "waist_cm": [
+              66,
+              73.7
+            ],
+            "hip_cm": [
+              90.2,
+              97.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt M",
+          "measurementRanges": {
+            "chest_cm": [
+              90.2,
+              96.5
+            ],
+            "waist_cm": [
+              73.7,
+              80
+            ],
+            "hip_cm": [
+              97.8,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt L",
+          "measurementRanges": {
+            "chest_cm": [
+              96.5,
+              104.1
+            ],
+            "waist_cm": [
+              80,
+              87.6
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt XL",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              113
+            ],
+            "waist_cm": [
+              87.6,
+              97.8
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              113,
+              123.2
+            ],
+            "waist_cm": [
+              97.8,
+              108
+            ],
+            "hip_cm": [
+              119.4,
+              127
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-skirt-dress",
+      "url": "https://www.nike.com/size-fit/womens-skirt-dress",
+      "scrapedAt": "2026-04-15T06:01:09.146Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Skirt ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Skirt 0X",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              119.4
+            ],
+            "waist_cm": [
+              101.6,
+              109.2
+            ],
+            "hip_cm": [
+              121.9,
+              129.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt 1X",
+          "measurementRanges": {
+            "chest_cm": [
+              119.4,
+              125.7
+            ],
+            "waist_cm": [
+              109.2,
+              115.6
+            ],
+            "hip_cm": [
+              129.5,
+              137.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt 2X",
+          "measurementRanges": {
+            "chest_cm": [
+              125.7,
+              132.1
+            ],
+            "waist_cm": [
+              115.6,
+              124.5
+            ],
+            "hip_cm": [
+              137.2,
+              144.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt 3X",
+          "measurementRanges": {
+            "chest_cm": [
+              132.1,
+              139.7
+            ],
+            "waist_cm": [
+              124.5,
+              134.6
+            ],
+            "hip_cm": [
+              144.8,
+              154.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Skirt 4X",
+          "measurementRanges": {
+            "chest_cm": [
+              139.7,
+              147.3
+            ],
+            "waist_cm": [
+              134.6,
+              144.8
+            ],
+            "hip_cm": [
+              154.9,
+              165.1
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-swimsuit",
+      "url": "https://www.nike.com/size-fit/womens-swimsuit",
+      "scrapedAt": "2026-04-15T06:01:15.913Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Swim ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Swim XS",
+          "measurementRanges": {
+            "chest_cm": [
+              80,
+              85.1
+            ],
+            "waist_cm": [
+              61,
+              66
+            ],
+            "hip_cm": [
+              87.6,
+              92.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim S",
+          "measurementRanges": {
+            "chest_cm": [
+              85.1,
+              90.2
+            ],
+            "waist_cm": [
+              66,
+              71.1
+            ],
+            "hip_cm": [
+              92.7,
+              97.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim M",
+          "measurementRanges": {
+            "chest_cm": [
+              90.2,
+              95.3
+            ],
+            "waist_cm": [
+              71.1,
+              76.2
+            ],
+            "hip_cm": [
+              97.8,
+              102.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim L",
+          "measurementRanges": {
+            "chest_cm": [
+              95.3,
+              102.9
+            ],
+            "waist_cm": [
+              76.2,
+              83.8
+            ],
+            "hip_cm": [
+              102.9,
+              110.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim XL",
+          "measurementRanges": {
+            "chest_cm": [
+              102.9,
+              110.5
+            ],
+            "waist_cm": [
+              83.8,
+              91.4
+            ],
+            "hip_cm": [
+              110.5,
+              118.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim 2XL",
+          "measurementRanges": {
+            "chest_cm": [
+              110.5,
+              118.1
+            ],
+            "waist_cm": [
+              91.4,
+              99.1
+            ],
+            "hip_cm": [
+              118.1,
+              125.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "US",
+        "Torso (in)"
+      ]
+    },
+    {
+      "slug": "womens-swimsuit",
+      "url": "https://www.nike.com/size-fit/womens-swimsuit",
+      "scrapedAt": "2026-04-15T06:01:15.913Z",
+      "sourceUnit": "in",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "Swim ",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "Swim 1X",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              121.9
+            ],
+            "waist_cm": [
+              96.5,
+              106.7
+            ],
+            "hip_cm": [
+              119.4,
+              129.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim 2X",
+          "measurementRanges": {
+            "chest_cm": [
+              121.9,
+              132.1
+            ],
+            "waist_cm": [
+              106.7,
+              116.8
+            ],
+            "hip_cm": [
+              129.5,
+              139.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "Swim 3X",
+          "measurementRanges": {
+            "chest_cm": [
+              132.1,
+              142.2
+            ],
+            "waist_cm": [
+              116.8,
+              127
+            ],
+            "hip_cm": [
+              139.7,
+              149.9
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "US",
+        "Torso (in)"
+      ]
+    },
+    {
+      "slug": "unisex-footwear-mens-based",
+      "url": "https://www.nike.com/size-fit/unisex-footwear-mens-based",
+      "scrapedAt": "2026-04-15T06:01:45.359Z",
+      "sourceUnit": "cm",
+      "genderCategory": "unisex",
+      "productCategory": "shoes",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "US M3.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22.5,
+              22.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M4",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23,
+              23
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M4.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.5,
+              23.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.5,
+              23.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M5.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24,
+              24
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M6",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24,
+              24
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M6.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24.5,
+              24.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M7",
+          "measurementRanges": {
+            "foot_length_cm": [
+              25,
+              25
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M7.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              25.5,
+              25.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M8",
+          "measurementRanges": {
+            "foot_length_cm": [
+              26,
+              26
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M8.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              26.5,
+              26.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M9",
+          "measurementRanges": {
+            "foot_length_cm": [
+              27,
+              27
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M9.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              27.5,
+              27.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M10",
+          "measurementRanges": {
+            "foot_length_cm": [
+              28,
+              28
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M10.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              28.5,
+              28.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M11",
+          "measurementRanges": {
+            "foot_length_cm": [
+              29,
+              29
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M11.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              29.5,
+              29.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M12",
+          "measurementRanges": {
+            "foot_length_cm": [
+              30,
+              30
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M12.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              30.5,
+              30.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M13",
+          "measurementRanges": {
+            "foot_length_cm": [
+              31,
+              31
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M13.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              31.5,
+              31.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M14",
+          "measurementRanges": {
+            "foot_length_cm": [
+              32,
+              32
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M14.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              32.5,
+              32.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M15",
+          "measurementRanges": {
+            "foot_length_cm": [
+              33,
+              33
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M15.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              33.5,
+              33.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M16",
+          "measurementRanges": {
+            "foot_length_cm": [
+              34,
+              34
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M16.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              34.5,
+              34.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M17",
+          "measurementRanges": {
+            "foot_length_cm": [
+              35,
+              35
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M17.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              35.5,
+              35.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M18",
+          "measurementRanges": {
+            "foot_length_cm": [
+              36,
+              36
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M18.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              36.5,
+              36.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M19",
+          "measurementRanges": {
+            "foot_length_cm": [
+              37,
+              37
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M19.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              37.5,
+              37.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M20",
+          "measurementRanges": {
+            "foot_length_cm": [
+              38,
+              38
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M20.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              38.5,
+              38.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M21",
+          "measurementRanges": {
+            "foot_length_cm": [
+              39,
+              39
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M21.5",
+          "measurementRanges": {
+            "foot_length_cm": [
+              39.5,
+              39.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US M22",
+          "measurementRanges": {
+            "foot_length_cm": [
+              40,
+              40
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Foot Length (in)"
+      ]
+    },
+    {
+      "slug": "gender-neutral-clothing-mens-based-alpha",
+      "url": "https://www.nike.com/size-fit/gender-neutral-clothing-mens-based-alpha",
+      "scrapedAt": "2026-04-15T06:02:05.404Z",
+      "sourceUnit": "in",
+      "genderCategory": "unisex",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "chest_cm": [
+              72.4,
+              80
+            ],
+            "waist_cm": [
+              57.2,
+              64.8
+            ],
+            "hip_cm": [
+              72.4,
+              80
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              80,
+              88.9
+            ],
+            "waist_cm": [
+              64.8,
+              73.7
+            ],
+            "hip_cm": [
+              80,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              88.9,
+              95.3
+            ],
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              88.9,
+              95.3
+            ],
+            "waist_cm": [
+              73.7,
+              81.3
+            ],
+            "hip_cm": [
+              88.9,
+              95.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              95.3,
+              104.1
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              95.3,
+              104.1
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              95.3,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ],
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ],
+            "waist_cm": [
+              88.9,
+              96.5
+            ],
+            "hip_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              123.2
+            ],
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              123.2
+            ],
+            "waist_cm": [
+              96.5,
+              109.2
+            ],
+            "hip_cm": [
+              111.8,
+              119.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              123.2,
+              135.9
+            ],
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              123.2,
+              135.9
+            ],
+            "waist_cm": [
+              109.2,
+              120.7
+            ],
+            "hip_cm": [
+              119.4,
+              128.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3XL",
+          "measurementRanges": {
+            "chest_cm": [
+              135.9,
+              147.3
+            ],
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3XL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              135.9,
+              147.3
+            ],
+            "waist_cm": [
+              120.7,
+              133.4
+            ],
+            "hip_cm": [
+              128.3,
+              135.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4XL",
+          "measurementRanges": {
+            "chest_cm": [
+              147.3,
+              160
+            ],
+            "waist_cm": [
+              133.4,
+              144.8
+            ],
+            "hip_cm": [
+              135.9,
+              148.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4XL Tall",
+          "measurementRanges": {
+            "chest_cm": [
+              147.3,
+              160
+            ],
+            "waist_cm": [
+              133.4,
+              144.8
+            ],
+            "hip_cm": [
+              135.9,
+              148.6
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Men's Equivalent Size",
+        "Women's Equivalent Size"
+      ]
+    },
+    {
+      "slug": "kids-footwear",
+      "url": "https://www.nike.com/size-fit/kids-footwear",
+      "scrapedAt": "2026-04-15T06:02:10.700Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "shoes",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "US K1Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              20.2,
+              20.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K1.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              20.5,
+              20.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K2Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21,
+              21
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K2.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21.4,
+              21.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K3Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21.7,
+              21.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K3.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22.2,
+              22.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K4Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22.4,
+              22.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K4.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              22.7,
+              22.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.2,
+              23.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K5.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.5,
+              23.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K6Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              23.8,
+              23.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K6.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24.3,
+              24.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K7Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              24.6,
+              24.6
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "kids-footwear",
+      "url": "https://www.nike.com/size-fit/kids-footwear",
+      "scrapedAt": "2026-04-15T06:02:10.700Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "shoes",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "US K8C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              15.1,
+              15.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K9C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              15.9,
+              15.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K10C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              16.7,
+              16.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K10.5C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              17.1,
+              17.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K11C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              17.6,
+              17.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K11.5C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              17.9,
+              17.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K12C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              18.4,
+              18.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K12.5C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              18.9,
+              18.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K13C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              19.2,
+              19.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K13.5C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              19.7,
+              19.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K1Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              20.2,
+              20.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K1.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              20.5,
+              20.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K2Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21,
+              21
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K2.5Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21.4,
+              21.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K3Y",
+          "measurementRanges": {
+            "foot_length_cm": [
+              21.7,
+              21.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "kids-footwear",
+      "url": "https://www.nike.com/size-fit/kids-footwear",
+      "scrapedAt": "2026-04-15T06:02:10.700Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "shoes",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "US K1C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              9,
+              9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K2C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              10,
+              10
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K3C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              10.8,
+              10.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K4C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              11.6,
+              11.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K5C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              12.5,
+              12.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K6C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              13.3,
+              13.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K7C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              14.1,
+              14.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K8C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              15.1,
+              15.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K9C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              15.9,
+              15.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "US K10C",
+          "measurementRanges": {
+            "foot_length_cm": [
+              16.7,
+              16.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Age (Months)"
+      ]
+    },
+    {
+      "slug": "boys-clothing",
+      "url": "https://www.nike.com/size-fit/boys-clothing",
+      "scrapedAt": "2026-04-15T06:02:15.964Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_boys",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              64.8,
+              66
+            ],
+            "waist_cm": [
+              59.7,
+              61
+            ],
+            "hip_cm": [
+              68.6,
+              71.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              66,
+              68.6
+            ],
+            "waist_cm": [
+              61,
+              64.8
+            ],
+            "hip_cm": [
+              71.1,
+              74.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S+",
+          "measurementRanges": {
+            "chest_cm": [
+              71.1,
+              76.2
+            ],
+            "waist_cm": [
+              66,
+              71.1
+            ],
+            "hip_cm": [
+              76.2,
+              81.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              68.6,
+              74.9
+            ],
+            "waist_cm": [
+              64.8,
+              68.6
+            ],
+            "hip_cm": [
+              74.9,
+              80
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M+",
+          "measurementRanges": {
+            "chest_cm": [
+              76.2,
+              83.8
+            ],
+            "waist_cm": [
+              71.1,
+              76.2
+            ],
+            "hip_cm": [
+              81.3,
+              86.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              81.3
+            ],
+            "waist_cm": [
+              68.6,
+              72.4
+            ],
+            "hip_cm": [
+              80,
+              85.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L+",
+          "measurementRanges": {
+            "chest_cm": [
+              83.8,
+              91.4
+            ],
+            "waist_cm": [
+              76.2,
+              81.3
+            ],
+            "hip_cm": [
+              86.4,
+              94
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              81.3,
+              88.9
+            ],
+            "waist_cm": [
+              72.4,
+              74.9
+            ],
+            "hip_cm": [
+              85.1,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL+",
+          "measurementRanges": {
+            "chest_cm": [
+              91.4,
+              97.8
+            ],
+            "waist_cm": [
+              81.3,
+              87.6
+            ],
+            "hip_cm": [
+              94,
+              100.3
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "boys-swimwear",
+      "url": "https://www.nike.com/size-fit/boys-swimwear",
+      "scrapedAt": "2026-04-15T06:02:20.854Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_boys",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              64.8,
+              66
+            ],
+            "waist_cm": [
+              59.7,
+              61
+            ],
+            "hip_cm": [
+              68.6,
+              71.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              66,
+              68.6
+            ],
+            "waist_cm": [
+              61,
+              64.8
+            ],
+            "hip_cm": [
+              71.1,
+              74.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              68.6,
+              74.9
+            ],
+            "waist_cm": [
+              64.8,
+              68.6
+            ],
+            "hip_cm": [
+              74.9,
+              80
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              81.3
+            ],
+            "waist_cm": [
+              68.6,
+              72.4
+            ],
+            "hip_cm": [
+              80,
+              85.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              81.3,
+              88.9
+            ],
+            "waist_cm": [
+              72.4,
+              74.9
+            ],
+            "hip_cm": [
+              85.1,
+              88.9
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Performance Equivalent",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "boys-swimwear",
+      "url": "https://www.nike.com/size-fit/boys-swimwear",
+      "scrapedAt": "2026-04-15T06:02:20.854Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_boys",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              52.7,
+              55.9
+            ],
+            "waist_cm": [
+              54,
+              55.9
+            ],
+            "hip_cm": [
+              55.9,
+              59.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              55.9,
+              59.1
+            ],
+            "waist_cm": [
+              55.9,
+              57.8
+            ],
+            "hip_cm": [
+              59.1,
+              61
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              59.1,
+              61
+            ],
+            "waist_cm": [
+              57.8,
+              59.1
+            ],
+            "hip_cm": [
+              61,
+              62.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              61,
+              62.9
+            ],
+            "waist_cm": [
+              59.1,
+              59.7
+            ],
+            "hip_cm": [
+              62.9,
+              66
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "girls-clothing",
+      "url": "https://www.nike.com/size-fit/girls-clothing",
+      "scrapedAt": "2026-04-15T06:02:25.607Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_girls",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              64.8,
+              68.6
+            ],
+            "waist_cm": [
+              59.7,
+              61
+            ],
+            "hip_cm": [
+              68.6,
+              73.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              68.6,
+              73.7
+            ],
+            "waist_cm": [
+              61,
+              63.5
+            ],
+            "hip_cm": [
+              73.7,
+              78.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S+",
+          "measurementRanges": {
+            "chest_cm": [
+              73.7,
+              81.3
+            ],
+            "waist_cm": [
+              67.3,
+              74.9
+            ],
+            "hip_cm": [
+              78.7,
+              85.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              73.7,
+              78.7
+            ],
+            "waist_cm": [
+              63.5,
+              68.6
+            ],
+            "hip_cm": [
+              78.7,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M+",
+          "measurementRanges": {
+            "chest_cm": [
+              81.3,
+              87.6
+            ],
+            "waist_cm": [
+              74.9,
+              81.3
+            ],
+            "hip_cm": [
+              85.1,
+              91.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              78.7,
+              85.1
+            ],
+            "waist_cm": [
+              68.6,
+              71.1
+            ],
+            "hip_cm": [
+              83.8,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L+",
+          "measurementRanges": {
+            "chest_cm": [
+              87.6,
+              96.5
+            ],
+            "waist_cm": [
+              81.3,
+              88.9
+            ],
+            "hip_cm": [
+              91.4,
+              99.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              85.1,
+              92.7
+            ],
+            "waist_cm": [
+              71.1,
+              74.9
+            ],
+            "hip_cm": [
+              88.9,
+              94
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL+",
+          "measurementRanges": {
+            "chest_cm": [
+              96.5,
+              105.4
+            ],
+            "waist_cm": [
+              88.9,
+              99.1
+            ],
+            "hip_cm": [
+              99.1,
+              106.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "girls-swimwear",
+      "url": "https://www.nike.com/size-fit/girls-swimwear",
+      "scrapedAt": "2026-04-15T06:02:31.087Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_girls",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              64.8,
+              68.6
+            ],
+            "waist_cm": [
+              59.7,
+              61
+            ],
+            "hip_cm": [
+              68.6,
+              73.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              68.6,
+              73.7
+            ],
+            "waist_cm": [
+              61,
+              63.5
+            ],
+            "hip_cm": [
+              73.7,
+              78.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              73.7,
+              78.7
+            ],
+            "waist_cm": [
+              63.5,
+              68.6
+            ],
+            "hip_cm": [
+              78.7,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              78.7,
+              85.1
+            ],
+            "waist_cm": [
+              68.6,
+              71.1
+            ],
+            "hip_cm": [
+              83.8,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              85.1,
+              92.7
+            ],
+            "waist_cm": [
+              71.1,
+              74.9
+            ],
+            "hip_cm": [
+              88.9,
+              94
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "performance_size",
+        "Height (in)",
+        "Torso (in)"
+      ]
+    },
+    {
+      "slug": "girls-swimwear",
+      "url": "https://www.nike.com/size-fit/girls-swimwear",
+      "scrapedAt": "2026-04-15T06:02:31.087Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_girls",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              52.7,
+              55.9
+            ],
+            "waist_cm": [
+              54,
+              55.9
+            ],
+            "hip_cm": [
+              55.9,
+              59.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              55.9,
+              59.1
+            ],
+            "waist_cm": [
+              55.9,
+              57.8
+            ],
+            "hip_cm": [
+              59.1,
+              61
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              59.1,
+              61
+            ],
+            "waist_cm": [
+              57.8,
+              59.1
+            ],
+            "hip_cm": [
+              61,
+              62.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              61,
+              62.9
+            ],
+            "waist_cm": [
+              59.1,
+              59.7
+            ],
+            "hip_cm": [
+              62.9,
+              66
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Height (in)",
+        "Torso (in)"
+      ]
+    },
+    {
+      "slug": "little-kids-clothing",
+      "url": "https://www.nike.com/size-fit/little-kids-clothing",
+      "scrapedAt": "2026-04-15T06:02:51.345Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "little_kids",
+      "entries": [
+        {
+          "sizeLabel": "4",
+          "measurementRanges": {
+            "chest_cm": [
+              55.9,
+              58.4
+            ],
+            "waist_cm": [
+              54.6,
+              55.9
+            ],
+            "hip_cm": [
+              57.2,
+              59.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "5",
+          "measurementRanges": {
+            "chest_cm": [
+              58.4,
+              61
+            ],
+            "waist_cm": [
+              55.9,
+              57.2
+            ],
+            "hip_cm": [
+              59.7,
+              62.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "6",
+          "measurementRanges": {
+            "chest_cm": [
+              61,
+              62.9
+            ],
+            "waist_cm": [
+              57.2,
+              58.4
+            ],
+            "hip_cm": [
+              62.2,
+              64.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "6X / 7",
+          "measurementRanges": {
+            "chest_cm": [
+              62.9,
+              66
+            ],
+            "waist_cm": [
+              58.4,
+              61
+            ],
+            "hip_cm": [
+              64.8,
+              67.3
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Age",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "infant-toddler-clothing",
+      "url": "https://www.nike.com/size-fit/infant-toddler-clothing",
+      "scrapedAt": "2026-04-15T06:02:56.599Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "infant_toddler",
+      "entries": [
+        {
+          "sizeLabel": "Preemie",
+          "measurementRanges": {
+            "chest_cm": [
+              31.8,
+              31.8
+            ],
+            "waist_cm": [
+              33,
+              33
+            ],
+            "hip_cm": [
+              33,
+              33
+            ]
+          }
+        },
+        {
+          "sizeLabel": "0M / NB",
+          "measurementRanges": {
+            "chest_cm": [
+              36.8,
+              41.9
+            ],
+            "waist_cm": [
+              39.4,
+              43.2
+            ],
+            "hip_cm": [
+              39.4,
+              43.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3M",
+          "measurementRanges": {
+            "chest_cm": [
+              41.9,
+              44.5
+            ],
+            "waist_cm": [
+              43.2,
+              45.7
+            ],
+            "hip_cm": [
+              43.2,
+              45.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "6M",
+          "measurementRanges": {
+            "chest_cm": [
+              44.5,
+              45.7
+            ],
+            "waist_cm": [
+              45.7,
+              47
+            ],
+            "hip_cm": [
+              45.7,
+              47
+            ]
+          }
+        },
+        {
+          "sizeLabel": "9M",
+          "measurementRanges": {
+            "chest_cm": [
+              45.7,
+              47
+            ],
+            "waist_cm": [
+              47,
+              48.3
+            ],
+            "hip_cm": [
+              47,
+              48.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "12M",
+          "measurementRanges": {
+            "chest_cm": [
+              47,
+              49.5
+            ],
+            "waist_cm": [
+              48.3,
+              50.2
+            ],
+            "hip_cm": [
+              48.3,
+              50.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "18M",
+          "measurementRanges": {
+            "chest_cm": [
+              49.5,
+              52.1
+            ],
+            "hip_cm": [
+              50.8,
+              53.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "2T / 24M",
+          "measurementRanges": {
+            "chest_cm": [
+              52.1,
+              53.3
+            ],
+            "hip_cm": [
+              53.3,
+              54.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "3T",
+          "measurementRanges": {
+            "chest_cm": [
+              53.3,
+              55.9
+            ],
+            "waist_cm": [
+              53.3,
+              54.6
+            ],
+            "hip_cm": [
+              54.6,
+              57.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "4T",
+          "measurementRanges": {
+            "chest_cm": [
+              55.9,
+              58.4
+            ],
+            "waist_cm": [
+              54.6,
+              55.9
+            ],
+            "hip_cm": [
+              57.2,
+              59.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Age (Months)",
+        "Height (in)",
+        "Weight (lb)"
+      ]
+    },
+    {
+      "slug": "jordan-big-kids-clothing",
+      "url": "https://www.nike.com/size-fit/jordan-big-kids-clothing",
+      "scrapedAt": "2026-04-15T06:03:10.171Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              66,
+              68.6
+            ],
+            "waist_cm": [
+              61,
+              63.5
+            ],
+            "hip_cm": [
+              67.3,
+              69.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              68.6,
+              74.9
+            ],
+            "waist_cm": [
+              63.5,
+              69.9
+            ],
+            "hip_cm": [
+              69.9,
+              77.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              81.3
+            ],
+            "waist_cm": [
+              69.9,
+              76.2
+            ],
+            "hip_cm": [
+              77.5,
+              85.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              81.3,
+              88.9
+            ],
+            "waist_cm": [
+              76.2,
+              81.3
+            ],
+            "hip_cm": [
+              85.1,
+              91.4
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "jordan-big-kids-clothing",
+      "url": "https://www.nike.com/size-fit/jordan-big-kids-clothing",
+      "scrapedAt": "2026-04-15T06:03:10.171Z",
+      "sourceUnit": "in",
+      "genderCategory": "kids_unisex",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "big_kids",
+      "entries": [
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              63.5,
+              66
+            ],
+            "waist_cm": [
+              58.4,
+              59.7
+            ],
+            "hip_cm": [
+              64.8,
+              69.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              66,
+              72.4
+            ],
+            "waist_cm": [
+              59.7,
+              63.5
+            ],
+            "hip_cm": [
+              69.9,
+              76.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              72.4,
+              80
+            ],
+            "waist_cm": [
+              63.5,
+              71.1
+            ],
+            "hip_cm": [
+              76.2,
+              86.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              80,
+              83.8
+            ],
+            "waist_cm": [
+              71.1,
+              76.2
+            ],
+            "hip_cm": [
+              86.4,
+              91.4
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Size",
+        "Age",
+        "Height (in)"
+      ]
+    },
+    {
+      "slug": "belts",
+      "url": "https://www.nike.com/size-fit/belts",
+      "scrapedAt": "2026-04-15T06:03:16.276Z",
+      "sourceUnit": "in",
+      "genderCategory": "unisex",
+      "productCategory": "accessories",
+      "labelPrefix": "",
+      "storable": false,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "waist_cm": [
+              45.7,
+              50.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "waist_cm": [
+              55.9,
+              61
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "waist_cm": [
+              66,
+              71.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "waist_cm": [
+              76.2,
+              81.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "waist_cm": [
+              86.4,
+              91.4
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": [
+        "Numeric Pant Size"
+      ]
+    }
+  ]
+}

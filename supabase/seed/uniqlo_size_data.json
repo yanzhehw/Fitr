@@ -1,0 +1,559 @@
+{
+  "brand": {
+    "name": "Uniqlo",
+    "region": "NA",
+    "enabled": true
+  },
+  "scrapedAt": "2026-04-15T07:17:21.875Z",
+  "sources": [
+    "https://www.uniqlo.com/ca/en/ (product page Size Guide → Body Size)"
+  ],
+  "totalSubCharts": 6,
+  "totalEntries": 46,
+  "subCharts": [
+    {
+      "slug": "mens-tops",
+      "url": "https://www.uniqlo.com/ca/en/products/E465185-000/00?colorDisplayCode=17",
+      "genderCategory": "mens",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "chest_cm": [
+              78.1,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              80,
+              88.3
+            ],
+            "waist_cm": [
+              66,
+              71.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              88.3,
+              95.9
+            ],
+            "waist_cm": [
+              67.9,
+              76.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              95.9,
+              104.1
+            ],
+            "waist_cm": [
+              76.2,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ],
+            "waist_cm": [
+              83.8,
+              92.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              120
+            ],
+            "waist_cm": [
+              92.1,
+              99.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              120,
+              128.3
+            ],
+            "waist_cm": [
+              99.7,
+              108
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-tops",
+      "url": "https://www.uniqlo.com/ca/en/products/E465760-000/00?colorDisplayCode=00",
+      "genderCategory": "womens",
+      "productCategory": "tops",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XXS",
+          "measurementRanges": {
+            "chest_cm": [
+              74.9,
+              81.3
+            ],
+            "waist_cm": [
+              57.2,
+              62.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              78.7,
+              85.1
+            ],
+            "waist_cm": [
+              61,
+              67.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              83.2,
+              88.9
+            ],
+            "waist_cm": [
+              64.8,
+              71.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              87,
+              92.7
+            ],
+            "waist_cm": [
+              69.2,
+              74.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              92.7,
+              99.1
+            ],
+            "waist_cm": [
+              74.9,
+              81.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              99.1,
+              104.8
+            ],
+            "waist_cm": [
+              81.3,
+              87
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              104.8,
+              111.1
+            ],
+            "waist_cm": [
+              87,
+              92.7
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "mens-bottoms",
+      "url": "https://www.uniqlo.com/ca/en/products/E473319-000/00?colorDisplayCode=63",
+      "genderCategory": "mens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "28 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              71.1,
+              71.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "29 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              73.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "30 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              76.2,
+              76.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "31 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              78.7,
+              78.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "32 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              81.3,
+              81.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "33 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              83.8,
+              83.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "34 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              86.4,
+              86.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "35 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              88.9,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "36 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              91.4,
+              91.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "38 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              96.5,
+              96.5
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "mens-outerwear",
+      "url": "https://www.uniqlo.com/ca/en/products/E484249-000/00?colorDisplayCode=57",
+      "genderCategory": "mens",
+      "productCategory": "outerwear",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              80,
+              88.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              88.3,
+              95.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              95.9,
+              104.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              104.1,
+              111.8
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              111.8,
+              120
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XXL",
+          "measurementRanges": {
+            "chest_cm": [
+              120,
+              128.3
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-bottoms",
+      "url": "https://www.uniqlo.com/ca/en/products/E483999-000/00?colorDisplayCode=67",
+      "genderCategory": "womens",
+      "productCategory": "bottoms",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "22 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              55.9,
+              55.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "23 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              58.4,
+              58.4
+            ]
+          }
+        },
+        {
+          "sizeLabel": "24 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              61,
+              61
+            ]
+          }
+        },
+        {
+          "sizeLabel": "25 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              63.5,
+              63.5
+            ]
+          }
+        },
+        {
+          "sizeLabel": "26 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              66,
+              66
+            ]
+          }
+        },
+        {
+          "sizeLabel": "27 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              68.6,
+              68.6
+            ]
+          }
+        },
+        {
+          "sizeLabel": "28 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              71.1,
+              71.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "29 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              73.7,
+              73.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "30 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              76.2,
+              76.2
+            ]
+          }
+        },
+        {
+          "sizeLabel": "32 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              81.3,
+              81.3
+            ]
+          }
+        },
+        {
+          "sizeLabel": "34 inch",
+          "measurementRanges": {
+            "waist_cm": [
+              86.4,
+              86.4
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    },
+    {
+      "slug": "womens-outerwear",
+      "url": "https://www.uniqlo.com/ca/en/products/E484032-000/00?colorDisplayCode=72",
+      "genderCategory": "womens",
+      "productCategory": "outerwear",
+      "labelPrefix": "",
+      "storable": true,
+      "ageGroup": "adult",
+      "entries": [
+        {
+          "sizeLabel": "XS",
+          "measurementRanges": {
+            "chest_cm": [
+              78.7,
+              85.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "S",
+          "measurementRanges": {
+            "chest_cm": [
+              83.2,
+              88.9
+            ]
+          }
+        },
+        {
+          "sizeLabel": "M",
+          "measurementRanges": {
+            "chest_cm": [
+              87,
+              92.7
+            ]
+          }
+        },
+        {
+          "sizeLabel": "L",
+          "measurementRanges": {
+            "chest_cm": [
+              92.7,
+              99.1
+            ]
+          }
+        },
+        {
+          "sizeLabel": "XL",
+          "measurementRanges": {
+            "chest_cm": [
+              99.1,
+              104.8
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "skippedLabels": []
+    }
+  ]
+}
