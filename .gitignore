@@ -7,3 +7,5 @@ node_modules/
 .vite/
 dist/
 supabase/.temp/
+Fitr_Frontend_Prototype alias
+*.alias
