@@ -1,66 +1,84 @@
-import { useState } from 'react';
-import { GeneralTab } from './tabs/GeneralTab';
-import { AboutTab } from './tabs/AboutTab';
+import { useEffect, useState } from 'react';
+import { TopRightControls } from './components/TopRightControls';
+import { PopupPreview } from './components/PopupPreview';
+import { SignInView } from './views/SignInView';
+import { OnboardingView, newFitRow } from './views/OnboardingView';
+import { ConflictView } from './views/ConflictView';
+import { AllSetView } from './views/AllSetView';
+import { DashboardView } from './views/DashboardView';
+import type { OnboardingData, ViewId } from './types';
 
-type TabId = 'general' | 'about';
+const INITIAL_DATA: OnboardingData = {
+  username: '',
+  nickname: '',
+  bodyType: null,
+  silhouette: null,
+  height: 182,
+  heightUnit: 'cm',
+  weight: 78,
+  weightUnit: 'kg',
+  shoeSize: 44,
+  shoeUnit: 'EU',
+  tshirtFit: 'regular',
+  hoodieFit: 'regular',
+  pantsLength: 'regular',
+  pantsWaist: 'regular',
+  fits: {
+    tops: [newFitRow()],
+    pants: [newFitRow()],
+    shoes: [newFitRow()],
+  },
+};
 
-const TABS: { id: TabId; label: string }[] = [
-  { id: 'general', label: 'General' },
-  { id: 'about', label: 'About' },
-];
-
-function getInitialTab(): TabId {
-  const param = new URLSearchParams(window.location.search).get('tab');
-  if (param === 'about' || param === 'general') {
-    return param;
+function loadTheme(): 'light' | 'dark' {
+  try {
+    const v = localStorage.getItem('fitr-theme');
+    return v === 'dark' ? 'dark' : 'light';
+  } catch {
+    return 'light';
   }
-  return 'general';
 }
 
 export function App() {
-  const [activeTab, setActiveTab] = useState<TabId>(getInitialTab);
+  const [view, setView] = useState<ViewId>('signIn');
+  const [data, setData] = useState<OnboardingData>(INITIAL_DATA);
+  const [theme, setThemeState] = useState<'light' | 'dark'>(loadTheme);
+  const [previewOpen, setPreviewOpen] = useState(false);
 
-  const handleTabClick = (id: TabId) => {
-    setActiveTab(id);
-    const url = new URL(window.location.href);
-    url.searchParams.set('tab', id);
-    window.history.replaceState(null, '', url.toString());
-  };
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    try {
+      localStorage.setItem('fitr-theme', theme);
+    } catch {
+      // ignore quota errors
+    }
+  }, [theme]);
+
+  const toggleTheme = () => setThemeState((t) => (t === 'light' ? 'dark' : 'light'));
 
   return (
-    <div className="flex h-full min-h-screen bg-slate-50 text-slate-900">
-      <aside className="w-60 shrink-0 border-r border-slate-200 bg-white">
-        <div className="px-6 py-6">
-          <h1 className="text-lg font-semibold tracking-tight">Fitr</h1>
-          <p className="mt-1 text-xs text-slate-500">Settings</p>
-        </div>
-        <nav className="px-3">
-          {TABS.map((tab) => {
-            const isActive = activeTab === tab.id;
-            return (
-              <button
-                key={tab.id}
-                type="button"
-                onClick={() => handleTabClick(tab.id)}
-                className={`w-full rounded-md px-3 py-2 text-left text-sm font-medium transition ${
-                  isActive
-                    ? 'bg-slate-900 text-white'
-                    : 'text-slate-600 hover:bg-slate-100'
-                }`}
-              >
-                {tab.label}
-              </button>
-            );
-          })}
-        </nav>
-      </aside>
+    <>
+      <TopRightControls
+        onTogglePopupPreview={() => setPreviewOpen((v) => !v)}
+        onToggleTheme={toggleTheme}
+      />
+      <PopupPreview open={previewOpen} theme={theme} onClose={() => setPreviewOpen(false)} />
 
-      <main className="flex-1 overflow-y-auto">
-        <div className="mx-auto max-w-3xl px-10 py-10">
-          {activeTab === 'general' && <GeneralTab />}
-          {activeTab === 'about' && <AboutTab />}
-        </div>
-      </main>
-    </div>
+      {view === 'signIn' && <SignInView onContinue={() => setView('onboarding')} />}
+      {view === 'onboarding' && (
+        <OnboardingView
+          data={data}
+          onChange={setData}
+          onComplete={() => setView('conflict')}
+        />
+      )}
+      {view === 'conflict' && <ConflictView onContinue={() => setView('allSet')} />}
+      {view === 'allSet' && (
+        <AllSetView data={data} onContinue={() => setView('dashboard')} />
+      )}
+      {view === 'dashboard' && (
+        <DashboardView theme={theme} onThemeChange={setThemeState} />
+      )}
+    </>
   );
 }

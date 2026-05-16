@@ -1,0 +1,225 @@
+/* ============================================================
+   Popup — 3-state compact card
+   ============================================================ */
+
+body {
+  width: 360px;
+  overflow-x: hidden;
+}
+
+/* ---- State toggle (preview only) ---- */
+
+.state-toggle {
+  display: flex;
+  gap: 2px;
+  padding: var(--space-2);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.state-toggle-btn {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  padding: 5px 6px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-cool-gray);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.state-toggle-btn.active {
+  background: var(--color-white);
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .state-toggle-btn.active {
+  background: var(--color-gray-tone);
+}
+
+/* ---- Popup states ---- */
+
+.popup-state {
+  display: none;
+  flex-direction: column;
+}
+
+.popup-state.active {
+  display: flex;
+}
+
+/* ---- Chrome ---- */
+
+.popup-chrome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: var(--space-3) var(--space-4) 0;
+}
+
+.popup-drag-handle {
+  width: 36px;
+  height: 4px;
+  background: var(--color-gray-tone);
+  border-radius: var(--radius-pill);
+}
+
+.popup-close {
+  position: absolute;
+  right: var(--space-3);
+  top: var(--space-2);
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.125rem;
+  color: var(--color-cool-gray);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.popup-close:hover {
+  background: var(--color-surface);
+  color: var(--color-dark);
+}
+
+/* ---- Body variants ---- */
+
+.popup-body {
+  padding: var(--space-5);
+}
+
+.popup-body-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-4);
+  padding: var(--space-6) var(--space-5);
+}
+
+.popup-brand-mini {
+  margin-bottom: var(--space-1);
+}
+
+.popup-logo {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-dark);
+  color: var(--color-white);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+}
+
+.popup-msg {
+  max-width: 280px;
+}
+
+/* ---- Recommendation body ---- */
+
+.rec-body {
+  padding: var(--space-5) var(--space-5) var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.rec-size-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+/* ---- Why this size ---- */
+
+.why-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-mid-slate);
+  cursor: pointer;
+  padding: 0;
+  transition: color var(--transition-fast);
+}
+
+.why-toggle:hover { color: var(--color-dark); }
+
+.why-chevron { transition: transform var(--transition-fast); }
+.why-toggle.expanded .why-chevron { transform: rotate(180deg); }
+
+.why-panel.hidden { display: none; }
+
+.why-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.why-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--color-border);
+}
+
+.why-tier {
+  font-size: 0.625rem;
+  color: var(--color-cool-gray);
+}
+
+/* ---- Social proof ---- */
+
+.social-proof {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.social-proof-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.social-proof-avatars { display: flex; }
+.social-proof-avatars .anon-avatar + .anon-avatar { margin-left: -6px; }
+
+.social-proof-names { padding-left: var(--space-1); }
+
+/* ---- Footer ---- */
+
+.popup-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-3) var(--space-5) var(--space-4);
+}
+
+.popup-cycle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+}

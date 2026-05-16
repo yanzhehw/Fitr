@@ -1,0 +1,635 @@
+/* ============================================================
+   Fitr Design Tokens — Inspired by Revolut
+   ============================================================ */
+
+:root {
+  /* ---- Primary ---- */
+  --color-dark: #191c1f;
+  --color-white: #ffffff;
+  --color-surface: #f4f4f4;
+
+  /* ---- Brand / Interactive ---- */
+  --color-blue: #494fdf;
+  --color-action-blue: #4f55f1;
+  --color-blue-text: #376cd5;
+
+  /* ---- Semantic ---- */
+  --color-danger: #e23b4a;
+  --color-deep-pink: #e61e49;
+  --color-warning: #ec7e00;
+  --color-yellow: #b09000;
+  --color-teal: #00a87e;
+  --color-light-green: #428619;
+  --color-light-blue: #007bc2;
+
+  /* ---- Neutral ---- */
+  --color-mid-slate: #505a63;
+  --color-cool-gray: #8d969e;
+  --color-gray-tone: #c9c9cd;
+  --color-border: #e5e5e7;
+
+  /* ---- Typography ---- */
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* ---- Spacing (8px base) ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+  --space-11: 80px;
+
+  /* ---- Border Radius ---- */
+  --radius-sm: 12px;
+  --radius-card: 20px;
+  --radius-pill: 9999px;
+
+  /* ---- Transitions ---- */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+}
+
+/* ============================================================
+   Dark Mode Tokens
+   ============================================================ */
+
+[data-theme="dark"] {
+  --color-dark: #f0f0f2;
+  --color-white: #111214;
+  --color-surface: #1e2023;
+
+  --color-border: #2c2e33;
+  --color-mid-slate: #a0a8b0;
+  --color-cool-gray: #6b737b;
+  --color-gray-tone: #3a3d42;
+}
+
+/* ============================================================
+   Reset & Base
+   ============================================================ */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+  color: var(--color-dark);
+  background: var(--color-white);
+}
+
+/* ============================================================
+   Typography Utilities
+   ============================================================ */
+
+.text-display-hero {
+  font-family: var(--font-display);
+  font-size: 2.5rem; /* 40px — scaled for extension */
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.8px;
+}
+
+.text-section-heading {
+  font-family: var(--font-display);
+  font-size: 1.75rem; /* 28px */
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.48px;
+}
+
+.text-card-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.2px;
+}
+
+.text-body-large {
+  font-family: var(--font-body);
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.56;
+  letter-spacing: -0.09px;
+}
+
+.text-body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+}
+
+.text-body-semibold {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+}
+
+.text-small {
+  font-family: var(--font-body);
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.16px;
+}
+
+.text-caption {
+  font-family: var(--font-body);
+  font-size: 0.75rem; /* 12px */
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
+
+/* ============================================================
+   Color Utilities
+   ============================================================ */
+
+.text-muted { color: var(--color-mid-slate); }
+.text-tertiary { color: var(--color-cool-gray); }
+.text-teal { color: var(--color-teal); }
+.text-danger { color: var(--color-danger); }
+.text-blue { color: var(--color-blue); }
+
+/* ============================================================
+   Button System — Pill Everything
+   ============================================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: normal;
+  border: 2px solid transparent;
+  border-radius: var(--radius-pill);
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: opacity var(--transition-fast), background var(--transition-fast);
+  text-decoration: none;
+  white-space: nowrap;
+  outline: none;
+}
+
+.btn:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-blue);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Primary Dark */
+.btn-primary {
+  background: var(--color-dark);
+  color: var(--color-white);
+}
+.btn-primary:hover { opacity: 0.85; }
+
+/* Secondary Light */
+.btn-secondary {
+  background: var(--color-surface);
+  color: var(--color-dark);
+}
+.btn-secondary:hover { opacity: 0.85; }
+
+/* Outlined */
+.btn-outline {
+  background: transparent;
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+.btn-outline:hover { background: var(--color-surface); }
+
+/* Ghost on dark */
+.btn-ghost {
+  background: rgba(244, 244, 244, 0.1);
+  color: var(--color-surface);
+  border-color: var(--color-surface);
+}
+.btn-ghost:hover { background: rgba(244, 244, 244, 0.18); }
+
+/* Teal / Success */
+.btn-teal {
+  background: var(--color-teal);
+  color: var(--color-white);
+}
+.btn-teal:hover { opacity: 0.85; }
+
+/* Small variant */
+.btn-sm {
+  font-size: 0.875rem;
+  padding: 8px 20px;
+}
+
+/* Full-width */
+.btn-block {
+  width: 100%;
+}
+
+/* Icon-only */
+.btn-icon {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* ============================================================
+   Card System — No Shadows
+   ============================================================ */
+
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+  padding: var(--space-6);
+}
+
+.card-dark {
+  background: var(--color-dark);
+  color: var(--color-white);
+  border: none;
+}
+
+.card-surface {
+  background: var(--color-surface);
+  border: none;
+}
+
+/* ============================================================
+   Input System
+   ============================================================ */
+
+.input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+  color: var(--color-dark);
+  background-color: var(--color-surface);
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.input::placeholder {
+  color: var(--color-cool-gray);
+}
+
+.input:focus {
+  border-color: var(--color-dark);
+}
+
+.input-error {
+  border-color: var(--color-danger);
+}
+
+/* ============================================================
+   Toggle Switch
+   ============================================================ */
+
+.toggle {
+  position: relative;
+  width: 44px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-track {
+  position: absolute;
+  inset: 0;
+  background: var(--color-gray-tone);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.toggle-track::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: var(--color-white);
+  border-radius: 50%;
+  transition: transform var(--transition-fast);
+}
+
+.toggle input:checked + .toggle-track {
+  background: var(--color-dark);
+}
+
+.toggle input:checked + .toggle-track::after {
+  transform: translateX(18px);
+}
+
+/* ============================================================
+   Progress Bar
+   ============================================================ */
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: var(--color-surface);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--color-dark);
+  border-radius: var(--radius-pill);
+  transition: width var(--transition-base);
+}
+
+/* ============================================================
+   SizeToken — oversized typographic size label
+   ============================================================ */
+
+.size-token {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: var(--color-dark);
+}
+
+.size-token-xl {
+  font-size: 3.5rem; /* 56px */
+}
+
+.size-token-lg {
+  font-size: 2.5rem; /* 40px */
+}
+
+.size-token-md {
+  font-size: 1.75rem; /* 28px */
+}
+
+.size-token-sm {
+  font-size: 1.25rem; /* 20px */
+  letter-spacing: -0.4px;
+}
+
+/* ============================================================
+   ConfidenceChip — low / medium / high
+   ============================================================ */
+
+.confidence-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+}
+
+.confidence-chip-high {
+  background: rgba(0, 168, 126, 0.12);
+  color: var(--color-teal);
+}
+
+.confidence-chip-medium {
+  background: rgba(236, 126, 0, 0.12);
+  color: var(--color-warning);
+}
+
+.confidence-chip-low {
+  background: rgba(226, 59, 74, 0.12);
+  color: var(--color-danger);
+}
+
+.confidence-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* ============================================================
+   UnitToggle — segmented pill, 2 options
+   ============================================================ */
+
+.unit-toggle {
+  display: inline-flex;
+  background: var(--color-surface);
+  border-radius: var(--radius-pill);
+  padding: 3px;
+  gap: 2px;
+}
+
+.unit-toggle-full {
+  display: flex;
+  width: 100%;
+}
+
+.unit-toggle-full .unit-toggle-option {
+  flex: 1;
+  text-align: center;
+}
+
+.unit-toggle-option {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 6px 16px;
+  border-radius: var(--radius-pill);
+  border: none;
+  background: transparent;
+  color: var(--color-mid-slate);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.unit-toggle-option.active {
+  background: var(--color-white);
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .unit-toggle-option.active {
+  background: var(--color-gray-tone);
+}
+
+/* ============================================================
+   BodyTypeCard — outlined card with label + icon
+   ============================================================ */
+
+.body-type-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-5) var(--space-4);
+  background: var(--color-white);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+  text-align: center;
+}
+
+.body-type-card:hover {
+  border-color: var(--color-cool-gray);
+}
+
+.body-type-card.selected {
+  border-color: var(--color-dark);
+  background: var(--color-surface);
+}
+
+.body-type-card-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-dark);
+}
+
+/* ============================================================
+   AnonymousAvatar — circle with truncated initials
+   ============================================================ */
+
+.anon-avatar {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  color: var(--color-mid-slate);
+  font-family: var(--font-body);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.anon-avatar-sm {
+  width: 22px;
+  height: 22px;
+  font-size: 0.5625rem;
+}
+
+/* ============================================================
+   Divider
+   ============================================================ */
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.divider-text {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-cool-gray);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+}
+
+.divider-text::before,
+.divider-text::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+/* ============================================================
+   Auth Buttons (social sign-in)
+   ============================================================ */
+
+.btn-auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 14px 24px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-white);
+  color: var(--color-dark);
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.btn-auth:hover {
+  background: var(--color-surface);
+}
+
+.btn-auth svg {
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Link
+   ============================================================ */
+
+.link {
+  color: var(--color-mid-slate);
+  font-size: 0.8125rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.link:hover {
+  color: var(--color-dark);
+}
